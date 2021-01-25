@@ -11,6 +11,17 @@ spatio-temporal attention network proposed in the literature, this paper introdu
 for skeletal pose data and RGB crops that improves the baseline results by 9.5% (on the cross-subject experiments),
 outperforming state-of-the-art techniques in this field when using the original unmodified skeletal data in dataset.
 
+## Involved repositories
+
+The experiments in this paper have been carried out using the following repositories in this GitHub account:
+
+* https://github.com/DAIGroup/mask_rcnn
+* https://github.com/DAIGroup/i3d
+* https://github.com/DAIGroup/LSTM_action_recognition
+* https://github.com/DAIGroup/separable_STA
+
+You can read more about them on their respective `README.md` files.
+
 ## Reproducibility
 
 ### Step 1: Obtain Mask RCNN detections
@@ -24,7 +35,7 @@ the Toyota dataset.
 Step 1 (i.e. to fill the gaps in detected bounding boxes), as well as to create the crops used for training.
 
 These crops can be extracted from the images in two forms: 1) _normal_, or one crop per frame; or 2) as a _full crop_
-of the whole activity, as described in our paper (Climent et al. 2021).
+of the whole activity, as described in our paper (Climent-Pérez et al. 2021).
 
 The network can then be trained for action recognition, as usual. The layer before the Global Average Pooling (GAP) 
 is used in Step 4 below, as described in (Das et al. 2019).
@@ -49,8 +60,12 @@ and `sta_evaluate.py`). These generate `.csv` files containing confusion matrice
 draws and saves as `.pdf` images. Mean average per class accuracy as well as overall classification accuracy are
 also calculated. 
 
+### Supplemental material: confusion matrices for all results
+
+The `results/` directory contains pre-drawn confusion matrices for all results reported in the paper.
+If using in your own materials, please cite (Climent-Pérez et al. 2021).
 
 ## References
 
 * **(Das et al. 2019)** Das, S., Dai, R., Koperski, M., Minciullo, L., Garattoni, L., Bremond, F., & Francesca, G. (2019). Toyota smarthome: Real-world activities of daily living. In Proceedings of the IEEE International Conference on Computer Vision (pp. 833-842).
-* **(Climent et al. 2021)** Climent-Pérez, P., Florez-Revuelta, F. (2021). Improved action recognition with Separable spatio-temporalattention using alternative Skeletal and Video pre-processing, Sensors, _submitted_.
+* **(Climent-Pérez et al. 2021)** Climent-Pérez, P., Florez-Revuelta, F. (2021). Improved action recognition with Separable spatio-temporalattention using alternative Skeletal and Video pre-processing, Sensors, _submitted_.
