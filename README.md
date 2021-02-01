@@ -22,6 +22,11 @@ The experiments in this paper have been carried out using the following reposito
 
 You can read more about them on their respective `README.md` files.
 
+## Available downloads
+
+* Please see `DAIGroup/LSTM_action_recognition` to download pre-processed rotated skeletons.
+* Please visit `DAIGroup/mask_rcnn` to download pre-processed Mask RCNN bounding box data.
+
 ## Reproducibility
 
 ### Step 1: Obtain Mask RCNN detections
