@@ -1,7 +1,7 @@
 # Improved action recognition with Separable spatio-temporal attention using alternative Skeletal and Video pre-processing
 **Pau Climent-Pérez · Francisco Flórez-Revuelta**
 
-MDPI Sensors, 2021 _(accepted)_
+MDPI Sensors 2021, 21(3), 1005 https://doi.org/10.3390/s21031005
 
 **Abstract:** The potential benefits of recognising activities of daily living from video for active and assisted living
 have yet to be fully untapped. These technologies can be used for behaviour understanding, and lifelogging for
@@ -73,4 +73,4 @@ If using in your own materials, please cite (Climent-Pérez et al. 2021).
 ## References
 
 * **(Das et al. 2019)** Das, S., Dai, R., Koperski, M., Minciullo, L., Garattoni, L., Bremond, F., & Francesca, G. (2019). Toyota smarthome: Real-world activities of daily living. In Proceedings of the IEEE International Conference on Computer Vision (pp. 833-842).
-* **(Climent-Pérez et al. 2021)** Climent-Pérez, P., Florez-Revuelta, F. (2021). Improved action recognition with Separable spatio-temporalattention using alternative Skeletal and Video pre-processing, Sensors, _accepted_.
+* **(Climent-Pérez et al. 2021)** Climent-Pérez, P., Florez-Revuelta, F. (2021). Improved action recognition with Separable spatio-temporalattention using alternative Skeletal and Video pre-processing, Sensors, 21(3), 1005. DOI: https://doi.org/10.3390/s21031005
